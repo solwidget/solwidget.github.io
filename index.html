@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--
+solwidget Project Summary page
+Copyright (C) 2010,2011,2014,2016 Kyle J. McKay
+Portions Copyright (C) 2006 Daniel S. Neumeyer
+All rights reserved
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * The names of the copyright holders or contributors may not be used to
+   endorse or promote products derived from this software without specific
+   prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+/* <![CDATA[ */
+body {
+  font-family: sans-serif;
+  font-size: 80%;
+  line-height: 1.25em;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+#holder {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+#content {
+  margin: 1em;
+  display: inline-block;
+  max-width: 90ex;
+  text-align: left;
+  position: relative;
+}
+#header {
+  margin-top: 1em;
+  font-size: 2em;
+}
+#hblock {
+  display: inline-block;
+  vertical-align: top;
+}
+#h1, #h2 {
+  display: block;
+  line-height: 1.0;
+}
+#h1 {
+  font-weight: bold;
+}
+#h2 {
+  margin-top: 0.5em;
+  font-size: 50%;
+}
+#header img {
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5ex;
+}
+.onefive {
+  margin-bottom: 1.25em;
+}
+hr {
+  margin: 0;
+  margin-top: 0.5ex;
+  margin-bottom: 0.5ex;
+  border-color: navy;
+}
+/* ]]> */
+</style>
+<title>Sol Dashboard Widget</title>
+</head>
+<body>
+<div id="holder"><div id="content">
+<div id="header">
+<hr noshade="noshade" size="1" width="100%" />
+<img id="timg" src='solwidget/Icon.png' border='0' xalign='left' />
+<span id="hblock">
+<span id="h1">Sol Widget</span>
+<span id="h2">Sunrise and Sunset Dashboard Widget for Mac OS X</span>
+</span>
+<hr noshade="noshade" size="1" width="100%" />
+</div>
+<table><tr><td>
+
+<h1 class="onefive">Sol 1.3.4</h1>
+<h3 class="onefive"><font color='#888888'>SUNRISE AND SUNSET DASHBOARD WIDGET</font></h3>
+
+<p>Sol is a Dashboard widget that tells you what time sunrise and sunset are,
+as well as dawn and dusk.</p>
+
+<p align='center'><img src='solwidget/widget.png' /></p>
+
+<p>The analog display is a 24-hour clock, with noon at the top and midnight
+at the bottom. The dark region is nighttime, the light part is daytime,
+and the slivers in between are dawn and dusk. (Or, for the technically
+inclined, they are <a href='http://en.wikipedia.org/wiki/Civil_twilight'>civil
+twilight</a>.)</p>
+
+<p><br /></p>
+
+<h2>Download</h2>
+
+<p align='center'><a
+href='http://solwidget.googlecode.com/files/Sol-1.3.4.wdgt.zip'
+><img src='solwidget/Icon.png' border='0' /></a><br /><a
+href='https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/solwidget/Sol-1.3.4.wdgt.zip'
+>Sol-1.3.4.wdgt.zip</a></p>
+
+<p><br /></p>
+
+<h2>Details</h2>
+
+<p>See the <a href='solwidget/About.html'>very detailed About page</a>
+for further details.</p>
+
+<p><br /></p>
+
+<h2>Building</h2>
+
+<p>If you <a href='https://github.com/solwidget/solwidget'>get the source code</a>, be sure to read the
+<a href='https://github.com/solwidget/solwidget/blob/master/README.txt'
+>README.txt</a> file in the top level directory for build instructions.</p>
+
+<p><br /></p>
+
+<h2>Submit a Translation</h2>
+
+<p>If you would like to submit a new language translation for Sol, please <a
+href='https://github.com/solwidget/solwidget/issues/new'>create a new
+Issue</a> and select the <i>New Language Translation</i> template and
+enter the translations there.  Alternatively grab a copy of <a
+href='https://github.com/solwidget/solwidget/blob/master/widget/localizations/fr.lproj/LocalizedStrings.js'
+>one of the existing translations</a>, modify it to have the translations
+for new language and email it to me together with the language name and/or
+attach it to a <a
+href='https://github.com/solwidget/solwidget/issues/new'>new
+issue</a>.</p>
+
+<p><br /></p>
+
+<h2>About the <i>Apple - Downloads - Dashboard</i> Listing</h2>
+
+<p>Apparently shortly after the release of the Mac App Store (with Mac OS X
+version 10.6.6 on 2011-01-06), it became impossible to submit any further
+updates to the <i><a
+href='http://www.apple.com/downloads/dashboard/'>Apple - Downloads -
+Dashboard</a></i> site.  As a result, downloading the Sol widget from
+there (Sol can be found in the <i>Information</i> category) is now stuck
+permanently pointing to the Sol-1.3.1.wdgt.zip download.  For this reason,
+the Sol-1.3.1.wdgt.zip download has actually been replaced with the most
+recent Sol version (currently 1.3.4) as of the time (2014-01-15) that the
+ability to update these downloads was disabled.</p>
+
+<p>Unfortunately the googlecode site went defunct in 2015 and was
+transitioned to archive-only status.  However, there is a redirect so
+that when clicking on the Dashboard Widgets download link one ends
+up on the googlecode archive downloads page for the Sol widget.
+Although this is not ideal, one more click there will actually start
+the download so it is not all bad.</p>
+
+<p><br /></p>
+
+<p align='center'><img src='solwidget/contact.png' alt='' title='' /><br /><font size='1'
+>Copyright &#169; 2010,2011,2014,2016 Kyle J. McKay.
+Portions Copyright &#169; 2006 Daniel S. Neumeyer. All rights reserved.</font></p>
+
+</td></tr></table>
+</div></div></body>
+</html>
